@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-05-13T10:37:08.537Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000" etag="mQiqymEr3ls5KNfuikGq" version="13.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-13T10:41:08.206Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="cRbEzfFR0_crbkpVytJY" version="13.1.1" type="github">
   <diagram name="Page-1" id="c9db0220-8083-56f3-ca83-edcdcd058819">
-    <mxGraphModel dx="1673" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -60,6 +60,9 @@
         </mxCell>
         <mxCell id="-u_xVx5pKLEJ8h2CzyQ2-34" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=none;shadow=0;dashed=0;shape=mxgraph.ios7.icons.back;fillColor=#E0E0E0;fontColor=#E0E0E0;" parent="1" vertex="1">
           <mxGeometry x="7.5" y="130" width="25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="NglU3m1LjTEl5XsNPzbA-1" value="Какое то изменение" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="70" width="330" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
