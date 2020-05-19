@@ -1,0 +1,28 @@
+:root {
+    /* ---Global Variables--- */
+    /* Theme Colors */
+    --color-bg: black;
+    --color-text: white;
+    --color-border: red;
+    --color-box-bg: black;
+    --color-box-text: white;
+    --color-box-border: var(--color-border);
+    --color-hover: red;
+    --color-active: var(--color-hover);
+    /* Other */
+    --font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    --line-height: 1.5;
+    --font-size: 15px;
+    --font-weight: 400;
+    --font: var(--font-weight) var(--font-size)/var(--font-height) var(--font-family);
+    --box-shadow: 1px 4px 10px #101010;
+    --text-shadow: 1px 4px 10px #101010;
+    --border: 1px solid var(--color-box-border);
+    --box-border: 1px solid var(--color-box-border);
+    --box-margin: 0 0 5% 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

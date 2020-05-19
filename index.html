@@ -1,7 +1,96 @@
 <!DOCTYPE html>
-<head></head>
-<body>
-<h1>Hello Cidyxa and Xenon_x</h1>
 
+<head>
+    <title>Project X</title>
+    <link href='css\main-style.css' type='text/css' rel='stylesheet'>
+    <style>
+        .main-container {
+
+            font: var(--font);
+            background: var(--color-bg);
+            color: var(--color-text);
+            width: 100%;
+            height: 100%;
+        }
+
+        .box-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 400px;
+            border-bottom: var(--box-border);
+            background: var(--color-box-bg);
+            color: var(--color-box-text);
+            margin: var(--box-margin);
+            padding: 1%;
+        }
+
+        .main-header {
+            place-content: space-between;
+        }
+
+        .main-menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: var(--box-border);
+            width: 15vmax;
+            height: 15vmax;
+            margin-left: 3%;
+            text-align: center;
+            transform: rotate(45deg);
+        }
+
+        .user-block {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: var(--box-border);
+            width: 10vmax;
+            height: 10vmax;
+            margin-right: 4%;
+            text-align: center;
+            transform: rotate(45deg);
+        }
+
+        .main-menu h1,
+        .user-block h1 {
+            transform: rotate(-45deg);
+        }
+
+        .footer {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <main class='main-container'>
+        <section class='box-container main-header'>
+            <div class='main-menu'>
+                <h1>Ромб - меню</h1>
+            </div>
+            <div class='welcom-header'>
+                <h1>Добро пожаловать на тестовый сайт</h1>
+            </div>
+            <div class="user-block">
+                <h1>Блок пользователя</h1>
+            </div>
+        </section>
+        <section class='box-container'>
+            <h1>Топы</h1>
+        </section>
+        <section class='box-container'>
+            <h1>Рекомендации</h1>
+        </section>
+        <section class='box-container'>
+            <h1>Остальной контент/бесконечная лента (с кнопкой показать еще)</h1>
+        </section>
+        <section class='box-container footer'>
+            <h1>Подвал</h1>
+        </section>
+    </main>
 </body>
+
 </html>
