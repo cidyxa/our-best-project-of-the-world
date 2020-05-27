@@ -1,12 +1,9 @@
 <!DOCTYPE html>
+
 <head>
     <meta name="robots" content="noindex, nofollow">
     <!-- meta http-equiv="refresh" content="15" -->
     <meta charset="UTF-8">
-</head>
-<body>
-
-<head>
     <title>Project X</title>
     <link href='css\main-style.css' type='text/css' rel='stylesheet'>
     <style>
@@ -33,6 +30,35 @@
 
         .main-header {
             place-content: space-between;
+            margin: var(--box-margin);
+            /*width: 100%;*/
+            position: relative;
+            border: none;
+            height: 500px;
+            /*background: url('img/header-bg.jpg');
+                background-position: top;
+                background-attachment: fixed;*/
+        }
+
+        .bg-video {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .bg-video video {
+            width: 99%;
+        }
+
+        .content-block {
+            position: relative;
+            top: -200px;
+            border-radius: 64px;
+            overflow: hidden;
+            width: 80%;
+            margin: auto;
+            box-shadow: 0 0 10px 4px var(--color-border);
         }
 
         .main-menu {
@@ -40,11 +66,17 @@
             align-items: center;
             justify-content: center;
             border: var(--box-border);
-            width: 15vmax;
-            height: 15vmax;
-            margin-left: 3%;
+            width: 10vmax;
+            height: 10vmax;
+            margin-left: 2vmax;
             text-align: center;
             transform: rotate(45deg);
+            background: rebeccapurple;
+            z-index: 2;
+        }
+
+        .welcom-header {
+            z-index: 1;
         }
 
         .user-block {
@@ -52,11 +84,13 @@
             align-items: center;
             justify-content: center;
             border: var(--box-border);
-            width: 10vmax;
-            height: 10vmax;
-            margin-right: 4%;
+            width: 8vmax;
+            height: 8vmax;
+            margin-right: 4vmax;
             text-align: center;
             transform: rotate(45deg);
+            background: rebeccapurple;
+            z-index: 2;
         }
 
         .main-menu h1,
@@ -73,6 +107,7 @@
 <body>
     <main class='main-container'>
         <section class='box-container main-header'>
+            <div class='bg-video'><video src='img/header-bg2.webm' muted autoplay loop></video></div>
             <div class='main-menu'>
                 <h1>Ромб - меню</h1>
             </div>
@@ -83,19 +118,23 @@
                 <h1>Блок пользователя</h1>
             </div>
         </section>
-        <section class='box-container'>
-            <h1>Топы</h1>
-        </section>
-        <section class='box-container'>
-            <h1>Рекомендации</h1>
-        </section>
-        <section class='box-container'>
-            <h1>Остальной контент/бесконечная лента (с кнопкой показать еще)</h1>
-        </section>
+        <div class='content-block'>
+            <section class='box-container'>
+                <h1>Топы</h1>
+            </section>
+            <section class='box-container'>
+                <h1>Рекомендации</h1>
+            </section>
+            <section class='box-container'>
+                <h1>Остальной контент/бесконечная лента (с кнопкой показать еще)</h1>
+            </section>
+        </div>
         <section class='box-container footer'>
             <h1>Подвал</h1>
+            <script src='js/global.js' ></script>
         </section>
     </main>
 </body>
+
 </html>
 <!-- a.Class.[attribute="value"].{content}*2 -->
